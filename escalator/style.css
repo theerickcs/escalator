@@ -1,0 +1,290 @@
+
+@font-face {
+    font-family: poppins-semibold;
+    src: url("fonte/Poppins-SemiBold.ttf");
+    font-weight: ;
+}
+
+@font-face{
+    font-family: poppins-light;
+    src: url("fonte/Poppins-Light.ttf");
+}
+
+html{
+    font-family: poppins-semibold;
+    color: #FFFFFF;
+}
+
+
+.bannerSlogan{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    height: 613px;
+}
+
+.bannerSlogan h1 {
+    position: absolute;
+    font-size: 62px; 
+    text-align: center;
+    margin-top:275px;
+}
+
+#escalator{
+    position: absolute;
+    width: 147px;
+    height: 115px;
+    margin-top: 73px;
+}
+  
+.btn {
+    width: 245px;
+    height: 51px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+    position: absolute;
+    margin-top: 477px
+  }
+  
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 600;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+  }
+  
+.btn:hover svg {
+    stroke-dashoffset: -600;
+  }
+  
+.btn span{
+    color: #fff;
+    font-size: 18px;
+    font-family: poppins-semibold;
+}
+  
+
+h2{
+    display: flex;
+    max-width: 1190px;
+    margin: 0 auto;
+    font-size: 52px;
+}
+
+.categorias{
+    display: flex;
+    background-color: #FFFFFF;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1190px;
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-between;    
+    margin-bottom: 6%;  
+}
+
+.categorias > div{
+    margin: 1%;
+}
+
+#back{
+    background-image: url(images/nature.jpg);
+    flex: 1 1 370px;
+    width: 370px;
+    height: 346px;
+}
+
+#imgNature{
+    flex: 1 1 370px;
+}
+
+#imgDaily{
+    flex: 1 1 770px;
+}
+
+#imgTogether{
+    flex: 1 1 1170px;
+}
+
+#imgAnalysis{
+    flex: 1 1 770px;
+}
+
+#imgPictures{
+    flex: 1 1 370px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.sectionGrowthPlans{
+    background-color: #F4F4F4;
+}
+
+#growthPlans{
+    color: black;
+    size: 52px;
+    padding-top: 6%;
+    padding-bottom: 1.5%;
+    max-width: 30%;
+    position: absolute;
+    padding-left: 6.5%;
+}
+
+#growthSub{
+    color: black;
+    font-size: 18px;
+    max-width: 30%;
+    position: absolute;
+    padding-top: 11.5%;
+    padding-left: 6.5%;
+}
+
+.grafico{ 
+    display: flex;
+    justify-content: space-between; 
+    max-width: 1190px;
+    margin: 0 auto;
+    position: relative;
+    align-items: flex-end;    
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.grafico > div{
+    margin: 1%;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#acima{
+    height:98px;
+    width: 170px;
+    background-color: #005499;
+    font-size: 36px; 
+}
+
+#valores{
+    margin: 10% 10% 3% 10%;
+}
+
+#horas{
+    margin: 0% 10% 10% 10%;
+    font-size: 20px;
+}
+
+#grafico100{
+    height:77px;
+    width: 170px;
+    background-color: #0088ED;
+}
+
+#grafico150{
+    height:127px;
+    width: 170px;
+    background-color: #0088ED;   
+}
+
+#grafico200{
+    height:177px;
+    width: 170px;
+    background-color: #0088ED;
+}
+
+#grafico250{
+    height:227px;
+    width: 170px;
+    background-color: #0088ED;
+}
+
+#grafico300{
+    height:277px;
+    width: 170px;
+    background-color: #0088ED;
+}
+
+#grafico350{
+    height:327px;
+    width: 170px;
+    background-color: #0088ED;
+}
+
+h3{
+    font-family: poppins-light;
+    font-size: 12px; 
+}
+
+#conteudo100{
+    margin: 10%;
+}
+
+#conteudo150{
+    margin: 40% 10% 10% 10%;
+}
+
+#conteudo200{
+    margin: 70% 10% 10% 10%;
+}
+
+#conteudo250{
+    margin: 100% 10% 10% 10%;
+}
+
+#conteudo300{
+    margin: 130% 10% 10% 10%;
+}
+
+#conteudo350{
+    margin: 160% 10% 10% 10%;
+}
+
+.textoImagens{
+    font-size: 52px;
+}
+
+.textoImagens h4{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 2.5%;
+}
+
+.textoImagens #analysisH4{
+    margin-left: 522px;
+}
+
+.textoImagens #togetherH4{
+    margin-top: 131px;
+}
+
+.textoImagens h6{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 108px;
+    margin-left: 2.5%;
+}
+
+.textoImagens #analysisH6{
+    margin-left: 267px;
+}
+
+.textoImagens #togetherH6{
+    margin-top: 206px;
+}
