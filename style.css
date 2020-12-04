@@ -18,7 +18,6 @@ html{
 .bannerSlogan{
     display: flex;
     justify-content: center;
-    margin-bottom: 3%;
     height: 613px;
 }
 
@@ -97,11 +96,24 @@ h2{
     margin: 1%;
 }
 
-#back{
-    background-image: url(images/nature.jpg);
-    flex: 1 1 370px;
-    width: 370px;
-    height: 346px;
+
+#categories{
+    
+    color: black;
+    size: 52px;
+    padding-top: 53px;
+    padding-left: 2%;
+    flex-wrap: wrap;
+}
+
+#subCategories{
+   
+    color: black;
+    font-size: 18px;
+    padding-top: 19px;
+    padding-bottom: 50px;
+    padding-left: 2%;
+    flex-wrap: wrap;
 }
 
 img{
@@ -109,9 +121,6 @@ img{
     display: block;
 }
 
-.sectionGrowthPlans{
-    background-color: #F4F4F4;
-}
 
 .textoImagens{
     position: relative;
@@ -130,12 +139,15 @@ img{
     opacity: 1;
 }
 
+.sectionGrowthPlans{
+    background-color: #F4F4F4;
+}
+
 #growthPlans{
     color: black;
     size: 52px;
     padding-top: 6%;
     padding-bottom: 1.5%;
-    max-width: 30%;
     position: absolute;
     padding-left: 6.5%;
 }
@@ -143,7 +155,6 @@ img{
 #growthSub{
     color: black;
     font-size: 18px;
-    max-width: 30%;
     position: absolute;
     padding-top: 11.5%;
     padding-left: 6.5%;
@@ -354,6 +365,14 @@ h3{
     .textoImagens #togetherH6{
         margin-top: 108px;
         margin-left: 3%;
+    }
+
+    #categories{
+        align-items: center;
+    }
+    
+    #subCategories{
+        align-items: center;
     }
 
 
