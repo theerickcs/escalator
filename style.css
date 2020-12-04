@@ -23,7 +23,7 @@ html{
     height: 613px;
 }
 
-.bannerSlogan h1 {
+h1 {
     position: absolute;
     font-size: 62px; 
     text-align: center;
@@ -74,7 +74,6 @@ svg {
     font-size: 18px;
     font-family: poppins-semibold;
 }
-  
 
 h2{
     display: flex;
@@ -106,26 +105,6 @@ h2{
     height: 346px;
 }
 
-#imgNature{
-    flex: 1 1 370px;
-}
-
-#imgDaily{
-    flex: 1 1 770px;
-}
-
-#imgTogether{
-    flex: 1 1 1170px;
-}
-
-#imgAnalysis{
-    flex: 1 1 770px;
-}
-
-#imgPictures{
-    flex: 1 1 370px;
-}
-
 img{
     max-width: 100%;
     display: block;
@@ -138,6 +117,7 @@ img{
 .textoImagens{
     position: relative;
 }
+
 .textoImagens .img2 {
     visibility: hidden;
     opacity: 0;
@@ -145,6 +125,7 @@ img{
     top:0;
     left:0;
 }
+
 .textoImagens:hover .img2 {
     visibility: visible;
     opacity: 1;
@@ -277,8 +258,8 @@ h3{
 
 .textoImagens h4{
     position: absolute;
-    margin-top: 3%;
-    margin-left: 2.5%;
+    margin-top: 35px;
+    margin-left: 32px;
 }
 
 .textoImagens #analysisH4{
@@ -293,13 +274,99 @@ h3{
     font-size: 20px;
     position: absolute;
     margin-top: 108px;
-    margin-left: 2.5%;
+    margin-left: 32px;
 }
 
 .textoImagens #analysisH6{
-    margin-left: 267px;
+    margin-left: 264px;
 }
 
 .textoImagens #togetherH6{
     margin-top: 206px;
+}
+
+@media screen and (max-width: 1187px){
+
+    #escalator{
+        margin-top: 173px;
+    }
+
+    .btn {
+        margin-top: 377px
+      }
+
+    h1{
+        display: none;
+        width: auto;
+    }
+
+    .sectionGrowthPlans{
+        display: none;
+    }
+    
+    .categorias{
+        width: auto;
+        margin: 0 auto;
+        position: relative;
+        justify-content: space-around;    
+        margin-bottom: 6%;  
+    }
+
+    .imgCategorias{
+        width:auto;
+    }
+    
+    .grafico{
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    .textoImagens{
+        position: relative;
+        margin: 0 auto;
+        width: auto;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .imgCategorias{
+        width: 330px;
+        height: 306px;
+    }
+
+    .img2{
+        width: 330px;
+        height: 306px;
+    }
+
+    .textoImagens #analysisH4{
+        margin-left: 2.5%;
+    }
+    
+    .textoImagens #togetherH4{
+        margin-top: 3%;
+    }
+
+    .textoImagens #analysisH6{
+        margin-top: 108px;
+        margin-left: 2.5%;
+    }
+    
+    .textoImagens #togetherH6{
+        margin-top: 108px;
+        margin-left: 3%;
+    }
+
+
+    @media screen and (max-width: 800px){
+        .imgCategorias{
+            width: 370px;
+            height: 346px;
+        }
+
+        .img2{
+            width: 370px;
+            height: 346px;
+        }
+    }
 }
